@@ -130,3 +130,23 @@ Back on the remote mac ssh
 
 	msbuild -t:restore
 	msbuild tpgl.sln
+	ls tpgl.iOS/bin/iPhoneSimulator/Debug/
+
+This will now contain your tpgl.app
+
+Now let's try to push this one to the iOS simulator
+
+	xcrun simctl list
+
+Finding the Guid of the iPhone Xs
+
+	xcrun simctl boot 49375ED7-752B-4E76-B5DD-D30B9C604880
+	xcrun simctl install 49375ED7-752B-4E76-B5DD-D30B9C604880 tpgl.iOS/bin/iPhoneSimulator/Debug/tpgl.iOS.app
+	xcrun simctl launch 49375ED7-752B-4E76-B5DD-D30B9C604880 ch.sebug.tpgl
+	xcrun simctl io booted screenshot tpgl.png
+
+From your local machine - copy that screenshot over to your machine and verify it worked
+
+	scp administrator@$BUILD_MAC_IP:Documents/tpgl/tpgl.png .
+
+Cool, right?
