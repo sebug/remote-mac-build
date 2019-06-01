@@ -70,42 +70,42 @@ Agree to the license agreement, typing your password
 
 2) In the Xcode menu (top left), choose Preferences
 
-Choose Accounts
+  Choose Accounts
 
-Add
+  Add
 
-Apple ID
+  Apple ID
 
-Type your username and password for your Apple ID. You'll be prompted for two-factor authentication on your other devices.
+  Type your username and password for your Apple ID. You'll be prompted for two-factor authentication on your other devices.
 
 3) XCode -> Quit Xcode
 
 4) Double-click the Visual Studio for Mac Installer image attached via SSH previously
 
-Thank you for downloading... -> Continue
+  Thank you for downloading... -> Continue
 
-Choose the following components:
+  Choose the following components:
 
-- .NET Core
-- Android
-- iOS
+  - .NET Core
+  - Android
+  - iOS
 
-Install
+  Install
 
-Notice that MacStadium has a massively better connection than you do.
+  Notice that MacStadium has a massively better connection than you do.
 
-You will be prompted for your password at least once.
+  You will be prompted for your password at least once.
 
 
-It will also complain about some programs (like mksdcard) not being optimised for this Mac. This means not 64 bit compatible which will become a problem very soon but doesn't worry us right now.
+  It will also complain about some programs (like mksdcard) not being optimised for this Mac. This means not 64 bit compatible which will become a problem very soon but doesn't worry us right now.
 
 Click OK there.
 
 5) Sign in with your Microsoft Account
 
-Enter your username and password.
+   Enter your username and password.
 
-Two-factor authentication again.
+   Two-factor authentication again.
 
 6) Visual Studio -> Quit
 
