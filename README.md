@@ -43,3 +43,16 @@ On the remote mac:
 
 	xip -x Xcode_10.2.1.xip
 	sudo mv Xcode.app /Applications/
+
+After that I logged out and logged in to the mac again. XCode-select was there, and I used xcode-select --install , but it requested UI.
+
+I downloaded the Visual Studio for Mac DMG from https://visualstudio.microsoft.com , copying that one over as well.
+
+	cp ~/Downloads/VisualStudioForMacInstaller__1473819573.1557071077.dmg administrator@$BUILD_MAC_IP:.
+
+Connecting again
+
+	hdiutil attach VisualStudioForMacInstaller__1473819573.1557071077.dmg
+
+Well, that's about as far as we can get without touching the UI. The next steps will need an SSH tunnel and VLC connection, trying that out on an unsecured network.
+
