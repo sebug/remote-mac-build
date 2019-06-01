@@ -13,7 +13,7 @@ solutions down the road.
 Just so that I have them somewhere around, let's jot down the IP address, in
 my shell startup file:
 
-export BUILD_MAC_IP=...
+	export BUILD_MAC_IP=...
 
 Right out of the gate that seems fishy and I'm pondering going down the
 virtualized route and spinning them up with Terraform etc. But let's put that
@@ -23,8 +23,21 @@ I have received a support ticket containing the credentials, first thing I
 do is put my ssh key on the remote machine. I log in once normally just to
 confirm everything is in place
 
-ssh administrator@$BUILD_MAC_IP
+	ssh administrator@$BUILD_MAC_IP
 
 And now that that is done I can copy over my key.
 
-ssh-copy-id -i ~/.ssh/id_rsa.pub administrator@$BUILD_MAC_IP
+	ssh-copy-id -i ~/.ssh/id_rsa.pub administrator@$BUILD_MAC_IP
+
+## Installing XCode
+Let's connect again (now using the public key) and list the apps available.
+
+	ssh administrator@$BUILD_MAC_IP
+	ls /Applications
+
+Ok, seems like an out-of-the-box install, perfect. Now I need Xcode (not just the command line tools mainly because I want to play around with it a bit more). To get it, log in to your Apple developer account, go to downloads and find the XCode version you need. Download it on your local machine and then scp it over to your mac.
+
+	scp ~/Downloads/Xcode_10.2.1.xip administrator@$BUILD_MAC_IP:.
+
+
+	
