@@ -68,3 +68,30 @@ Agree to the license agreement, typing your password
 
 ![Installing Components](https://raw.githubusercontent.com/sebug/remote-mac-build/master/images/installing_components.png "Installing XCode components")
 
+2) In the Xcode menu (top left), choose Preferences
+
+Choose Accounts
+
+Add
+
+Apple ID
+
+Type your username and password for your Apple ID. You'll be prompted for two-factor authentication on your other devices.
+
+3) XCode -> Quit Xcode
+
+4) Double-click the Visual Studio for Mac Installer image attached via SSH previously
+
+Thank you for downloading... -> Continue
+
+Choose the following components:
+
+- .NET Core
+- Android
+- iOS
+
+Install
+
+Notice that MacStadium has a massively better connection than you do.
+
+
