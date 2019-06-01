@@ -116,3 +116,17 @@ The following is a clickstream of actions performed to get the build environment
 9) Quit SSH tunnel (Ctr-C)
 
 
+## Build the project from SSH
+Now that we have done the necessary clicky-click work, let's focus back on the shell. Connecting via ssh again.
+
+	cd Documents
+	git clone https://github.com/sebug/tpgl.git
+
+We'll have to copy over our secrets.json with the private data
+
+	scp tpgl/secrets.json administrator@$BUILD_MAC_IP:Documents/tpgl/tpgl/secrets.json
+
+Back on the remote mac ssh
+
+	msbuild -t:restore
+	msbuild tpgl.sln
