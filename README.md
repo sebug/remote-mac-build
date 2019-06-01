@@ -39,5 +39,7 @@ Ok, seems like an out-of-the-box install, perfect. Now I need Xcode (not just th
 
 	scp ~/Downloads/Xcode_10.2.1.xip administrator@$BUILD_MAC_IP:.
 
+On the remote mac:
 
-	
+	xip -x Xcode_10.2.1.xip
+	sudo mv Xcode.app /Applications/
