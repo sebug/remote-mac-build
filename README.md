@@ -48,7 +48,7 @@ After that I logged out and logged in to the mac again. XCode-select was there, 
 
 I downloaded the Visual Studio for Mac DMG from https://visualstudio.microsoft.com , copying that one over as well.
 
-	cp ~/Downloads/VisualStudioForMacInstaller__1473819573.1557071077.dmg administrator@$BUILD_MAC_IP:.
+	scp ~/Downloads/VisualStudioForMacInstaller__1473819573.1557071077.dmg administrator@$BUILD_MAC_IP:.
 
 Connecting again
 
