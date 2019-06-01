@@ -70,13 +70,13 @@ Agree to the license agreement, typing your password
 
 2) In the Xcode menu (top left), choose Preferences
 
-  Choose Accounts
+   Choose Accounts
 
-  Add
+   Add
 
-  Apple ID
+   Apple ID
 
-  Type your username and password for your Apple ID. You'll be prompted for two-factor authentication on your other devices.
+   Type your username and password for your Apple ID. You'll be prompted for two-factor authentication on your other devices.
 
 3) XCode -> Quit Xcode
 
