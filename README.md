@@ -54,5 +54,16 @@ Connecting again
 
 	hdiutil attach VisualStudioForMacInstaller__1473819573.1557071077.dmg
 
-Well, that's about as far as we can get without touching the UI. The next steps will need an SSH tunnel and VLC connection, trying that out on an unsecured network.
+Well, that's about as far as we can get without touching the UI. The next steps will need an SSH tunnel and VLC connection, trying that out on an unsecured network. From your local machine in a new terminal:
+
+	ssh -L 5900:localhost:5900 -N -l administrator $BUILD_MAC_IP
+
+Then, open vnc://localhost
+
+The following is a clickstream of actions performed to get the build environment up and running:
+
+1) In Spotlight, type Xcode to open it for the first time
+
+Agree to the license agreement, typing your password
+
 
