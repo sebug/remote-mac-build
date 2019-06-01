@@ -66,5 +66,5 @@ The following is a clickstream of actions performed to get the build environment
 
 Agree to the license agreement, typing your password
 
-![Installing Components](images/install_components.png?raw=true "Installing XCode components")
+![Installing Components](https://raw.githubusercontent.com/sebug/remote-mac-build/master/images/installing_components.png "Installing XCode components")
 
