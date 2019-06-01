@@ -94,4 +94,25 @@ Install
 
 Notice that MacStadium has a massively better connection than you do.
 
+You will be prompted for your password at least once.
+
+
+It will also complain about some programs (like mksdcard) not being optimised for this Mac. This means not 64 bit compatible which will become a problem very soon but doesn't worry us right now.
+
+Click OK there.
+
+5) Sign in with your Microsoft Account
+
+Enter your username and password.
+
+Two-factor authentication again.
+
+6) Visual Studio -> Quit
+
+7) Log out administrator, OK
+
+8) Close screen sharing
+
+9) Quit SSH tunnel (Ctr-C)
+
 
