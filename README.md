@@ -64,9 +64,9 @@ The following is a clickstream of actions performed to get the build environment
 
 1) In Spotlight, type Xcode to open it for the first time
 
-Agree to the license agreement, typing your password
+   Agree to the license agreement, typing your password
 
-![Installing Components](https://raw.githubusercontent.com/sebug/remote-mac-build/master/images/installing_components.png "Installing XCode components")
+   ![Installing Components](https://raw.githubusercontent.com/sebug/remote-mac-build/master/images/installing_components.png "Installing XCode components")
 
 2) In the Xcode menu (top left), choose Preferences
 
@@ -82,24 +82,24 @@ Agree to the license agreement, typing your password
 
 4) Double-click the Visual Studio for Mac Installer image attached via SSH previously
 
-  Thank you for downloading... -> Continue
+   Thank you for downloading... -> Continue
 
-  Choose the following components:
+   Choose the following components:
 
-  - .NET Core
-  - Android
-  - iOS
+   - .NET Core
+   - Android
+   - iOS
 
-  Install
+   Install
 
-  Notice that MacStadium has a massively better connection than you do.
+   Notice that MacStadium has a massively better connection than you do.
 
-  You will be prompted for your password at least once.
+   You will be prompted for your password at least once.
 
 
-  It will also complain about some programs (like mksdcard) not being optimised for this Mac. This means not 64 bit compatible which will become a problem very soon but doesn't worry us right now.
+   It will also complain about some programs (like mksdcard) not being optimised for this Mac. This means not 64 bit compatible which will become a problem very soon but doesn't worry us right now.
 
-Click OK there.
+   Click OK there.
 
 5) Sign in with your Microsoft Account
 
