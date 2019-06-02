@@ -150,3 +150,12 @@ From your local machine - copy that screenshot over to your machine and verify i
 	scp administrator@$BUILD_MAC_IP:Documents/tpgl/tpgl.png .
 
 Cool, right?
+
+## Adding certificates
+Go to developer.apple.com and create your iOS certificates. If you already have them, you have to export them (including the private key) from your Keychain.
+
+	scp Downloads/ios_development.p12 administrator@$BUILD_MAC_IP:.
+
+Once you have them all over, use the GUI (ugh) again to add them to your keychain.
+
+
